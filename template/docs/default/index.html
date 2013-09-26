@@ -26,34 +26,47 @@
 
         <title>PhoneGap API Documentation</title>
 
-        <link rel="stylesheet" type="text/css" href="index.css">
-        <link rel="stylesheet" type="text/css" href="mobile.css" media="only screen and (max-device-width: 1024px)">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/default.css">
         <link rel="stylesheet" type="text/css" href="prettify/prettify.css" />
     </head>
     <body>
-        <div id="header">
-            <h1><a href="index.html">PhoneGap Documentation</a></h1>
-            <small>
-                <select></select>
-            </small>
-        </div>
-        <div id="subheader">
-            <h1>Geolocation</h1>
-            <small></small>
-        </div>
+        <nav class="navbar navbar-inverse  navbar-static-top" role="navigation">
+            <div class="navbar-header">
+              <a href="index.html" class="navbar-brand">
+                PhoneGap Documentation
+              </a>
+            </div>
+            <ul class="nav navbar-nav navbar-right" id="header">
+                <li>
+                  <small>
+                      <select></select>
+                  </small>
+                </li>
+            </ul>
+        </nav>
+        <div class="container">
 
-        <div id="sidebar">
-            <div class="vertical_divider"></div>
-        </div>
-
-        <div id="scrollable">
-            <div id="content">
-                $body
+            <div class="row">
+                <div id="sidebar" class="col-md-3">
+                    <div class="vertical_divider"></div>
+                </div>
+                <div id="content" class="col-md-9">
+                    <ul class="breadcrumb">
+                        <li>Section</li>
+                        <li id="subheader">
+                            <nav style="display: inline-block;"></nav>
+                        </li>
+                    </ul>
+                    $body
+                </div>
             </div>
         </div>
 
         <!-- Functionality and Syntax Highlighting -->
-        <script type="text/javascript" src="index.js"></script>
+        <script type="text/javascript" src="js/boostrap.min.js"></script>
         <script type="text/javascript" src="prettify/prettify.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+
     </body>
 </html>
