@@ -48,6 +48,10 @@ nav select {
 #content > h5 { font-style: italic; }
 #content > h5 a { text-decoration: none; }
 
+#content nav select {
+    width: 100px;
+}
+
 
 #home ul {
     float: left;
