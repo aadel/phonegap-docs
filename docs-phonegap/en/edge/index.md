@@ -30,10 +30,6 @@ license: Licensed to the Apache Software Foundation (ASF) under one
             <span>Create, build, and deploy from the command-line.</span>
         </li>
         <li>
-            <h2>PhoneGap Build</h2>
-            <span>Compile your apps in the cloud.</span>
-        </li>
-        <li>
             <h2>Platform Guides</h2>
             <span>Set up each SDK and update projects</span>
         </li>
@@ -60,6 +56,68 @@ license: Licensed to the Apache Software Foundation (ASF) under one
         <li>
             <h2><a href="_index.html">Keyword Index</a></h2>
             <span>Full index of the documentation.</span>
+        </li>
+    </ul>
+
+    <h1>PhoneGap Build</h1>
+    <ul>
+        <li>
+            <h2>Getting Started</h2>
+            <span>
+                Learn more about PhoneGap Build, and compiling your apps
+                in the cloud.
+            </span>
+        </li>
+        <li>
+            <h2>Configure Your App</h2>
+            <span>
+                Use the config.xml to configure and enhance your application.
+            </span>
+        </li>
+        <li>
+            <h2>iOS Signing</h2>
+            <span>
+              How to guide for signing your app with PhoneGap Build.
+            </span>
+        </li>
+        <li>
+            <h2>Android Signing</h2>
+            <span>
+                How to guide for signing your app with PhoneGap Build.
+            </span>
+        </li>
+        <li>
+            <h2>The PhoneGap Build API</h2>
+            <span>
+                Take Build to the next level and automate compiling your apps.
+            </span>
+        </li>
+        <li>
+            <h2>Remote Debugging Tools</h2>
+            <span>
+                Debug your applications with ease using Debug.
+            </span>
+        </li>
+        <li>
+            <h2>Remote Collaboration and Testing</h2>
+            <span>
+                Work with your team to develop applications.
+            </span>
+        </li>
+        <li>
+            <h2>Using Plugins</h2>
+            <span>Guide on using plugins with PhoneGap Build</span>
+        </li>
+        <li>
+            <h2>Contributing Plugins</h2>
+            <span>Guide on contributing plugins to PhoneGap Build</span>
+        </li>
+        <li>
+            <h2>Upgrading from 2.9.0 to 3.0.0</h2>
+            <span>
+                A guide on updating from 2.9.0 to 3.0.0 for PhoneGap Build
+                users.
+            </span>
         </li>
     </ul>
 

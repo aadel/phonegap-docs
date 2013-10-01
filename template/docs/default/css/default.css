@@ -37,19 +37,38 @@ nav select {
 }
 #sidebar > ul > li { padding: 2px 0px 2px 0px; }
 
-#content > h1 { font-style: italic; }
+#content > h1 {
+    font-style: italic;
+    padding: 5px 0px 5px 0px;
+}
 #content > h1 a { text-decoration: none; }
-#content > h2 { font-style: italic; }
+
+#content > h2 {
+    font-style: italic;
+    padding: 5px 0px 5px 0px;
+}
 #content > h2 a { text-decoration: none; }
-#content > h3 { font-style: italic; }
+
+#content > h3 {
+    font-style: italic;
+    padding: 5px 0px 5px 0px;
+}
 #content > h3 a { text-decoration: none; }
-#content > h4 { font-style: italic; }
+
+#content > h4 {
+    font-style: italic;
+    padding: 5px 0px 5px 0px;
+}
 #content > h4 a { text-decoration: none; }
-#content > h5 { font-style: italic; }
+
+#content > h5 {
+    font-style: italic;
+    padding: 5px 0px 5px 0px;
+}
 #content > h5 a { text-decoration: none; }
 
 #content nav select {
-    width: 100px;
+    width: 200px;
 }
 
 
@@ -75,3 +94,33 @@ nav select {
     padding-bottom: 5px;
     border-color: rgb(245, 245, 245);
 }
+
+/*
+-------------------------------------------------------------------------------
+Left over from the old docs, from now on please use the table element
+from bootstrap.
+
+Class compatability tables "compat";
+Apply nested TD classes "y"/"n", "p" (partial), or "u" (unknown).
+Results in green/red/gold/gray background & auto-inserts check/X char.
+Assumes table is 2D grid, with single TH preceding TDs in body of table.
+*/
+
+.compat .y { background-color: lightgreen; }
+.compat .y::before { content: "\2714";     margin-right: 6px;  }
+
+.compat .n { background-color: pink; }
+.compat .n::before { content: "\2718"; margin-right: 6px;  }
+
+.compat .p { background-color: gold; }
+.compat .p::before { content: "(partial)";  }
+
+.compat .u { background-color: #dddddd; }
+
+/* center cell & straddled column heads by default */
+
+.compat td , th[colspan]:first-of-type { text-align: center }
+.compat tr>th:first-of-type { text-align: right }
+/*
+-------------------------------------------------------------------------------
+/*

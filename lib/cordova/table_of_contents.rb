@@ -65,6 +65,7 @@ class TableOfContents
     select = Nokogiri::XML::Node.new 'select', doc
     select.add_child option_set
     subheader = doc.css('#subheader > nav')[0]
+    subheader ||= doc.css( '#subheader > small' )[ 0 ]
     subheader.add_child select
     
     # Save Table of Contents
